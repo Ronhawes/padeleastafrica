@@ -17,7 +17,7 @@ model Product {
   priceIncents          String
   filePath              priceIncents
   imagePath             String
-  description           String
+  description           text
   isAvailableForPurchase  Boolean
   createdAt             DateTime
   updatedAt             DateTime
