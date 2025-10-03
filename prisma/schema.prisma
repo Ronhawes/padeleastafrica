@@ -22,3 +22,12 @@ model Product {
   createdAt             DateTime
   updatedAt             DateTime
   }
+
+model Client {
+  id String @id @defualt(uuid())
+  name       String
+  age        text
+  imagePath  String
+  createdAt             DateTime
+  updatedAt             DateTime
+}
