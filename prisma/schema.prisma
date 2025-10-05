@@ -41,3 +41,11 @@ model Coach {
   createdAt             DateTime
   updatedAt             DateTime
 }
+
+model Court {
+  id String @id @defualt(uuid())
+  name       String
+  imagePath  String
+  createdAt             DateTime
+  updatedAt             DateTime
+}
