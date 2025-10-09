@@ -57,3 +57,10 @@ model Client {
   createdAt             DateTime
   updatedAt             DateTime
 }
+model Club {
+  id String @id @defualt(uuid())
+  name       String
+  imagePath  String
+  createdAt             DateTime
+  updatedAt             DateTime
+}
