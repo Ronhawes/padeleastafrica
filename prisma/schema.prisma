@@ -73,10 +73,4 @@ model Club manager 1{
   updatedAt             DateTime
 }
 
-model court manager 1{
-  id String @id @defualt(uuid())
-  name       String
-  imagePath  String
-  createdAt             DateTime
-  updatedAt             DateTime
-}
+
