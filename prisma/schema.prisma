@@ -90,3 +90,10 @@ model Court manager{
   updatedAt             DateTime
 }
 
+model Bookings{
+  id String @id @defualt(uuid())
+  name       String
+  imagePath  String
+  createdAt             DateTime
+  updatedAt             DateTime
+}
