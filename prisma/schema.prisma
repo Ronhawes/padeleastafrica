@@ -82,13 +82,6 @@ model Court manager 1{
 }
 
 
-model Court manager{
-  id String @id @defualt(uuid())
-  name       String
-  imagePath  String
-  createdAt             DateTime
-  updatedAt             DateTime
-}
 
 model Bookings{
   id String @id @defualt(uuid())
