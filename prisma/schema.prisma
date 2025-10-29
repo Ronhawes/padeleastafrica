@@ -92,10 +92,4 @@ model Bookings{
 }
 
 
-model payments{
-  id String @id @defualt(uuid())
-  name       String
-  imagePath  String
-  createdAt             DateTime
-  updatedAt             DateTime
-}
+
