@@ -90,3 +90,12 @@ model Bookings{
   createdAt             DateTime
   updatedAt             DateTime
 }
+
+
+model payments{
+  id String @id @defualt(uuid())
+  name       String
+  imagePath  String
+  createdAt             DateTime
+  updatedAt             DateTime
+}
