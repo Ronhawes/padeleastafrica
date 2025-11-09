@@ -83,7 +83,7 @@ model Court manager 1{
 
 
 
-model Bookings{
+model Bookings2{
   id String @id @defualt(uuid())
   name       String
   imagePath  String
