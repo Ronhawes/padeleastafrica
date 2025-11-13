@@ -107,3 +107,11 @@ model Bookings4{
   createdAt             DateTime
   updatedAt             DateTime
 }
+
+model Bookings5{
+  id String @id @defualt(uuid())
+  name       String
+  imagePath  String
+  createdAt             DateTime
+  updatedAt             DateTime
+}
