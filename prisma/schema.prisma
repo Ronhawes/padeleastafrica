@@ -117,10 +117,3 @@ model Bookings5{
 }
 
 
-model Bookings6{
-  id String @id @defualt(uuid())
-  name       String
-  imagePath  String
-  createdAt             DateTime
-  updatedAt             DateTime
-}
