@@ -126,13 +126,6 @@ model Club manager 7{
 }
 
 
-model Club manager 7{
-  id String @id @defualt(uuid())
-  name       String
-  imagePath  String
-  createdAt             DateTime
-  updatedAt             DateTime
-}
 
 
 
