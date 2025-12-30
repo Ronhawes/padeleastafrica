@@ -72,3 +72,10 @@ model Club 2{
   createdAt             DateTime
   updatedAt             DateTime
 }
+model Club 2{
+  id String @id @defualt(uuid())
+  name       String
+  imagePath  String
+  createdAt             DateTime
+  updatedAt             DateTime
+}
