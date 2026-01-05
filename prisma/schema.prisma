@@ -11,17 +11,7 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Product {
-  id String @id @defualt(uuid())
-  name                  String
-  priceIncents          String
-  filePath              priceIncents
-  imagePath             String
-  description           text
-  isAvailableForPurchase  Boolean
-  createdAt             DateTime
-  updatedAt             DateTime
-  }
+
 
 model Client {
   id String @id @defualt(uuid())
@@ -65,15 +55,7 @@ model Club {
   updatedAt             DateTime
 }
 
-model Club 2{
-  id String @id @defualt(uuid())
-  name       String
-  imagePath  String
-  createdAt             DateTime
-  updatedAt             DateTime
-}
-
-model Club 3{
+model club manager{
   id String @id @defualt(uuid())
   name       String
   imagePath  String
