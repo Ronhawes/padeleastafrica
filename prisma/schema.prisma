@@ -62,3 +62,12 @@ model club manager{
   createdAt             DateTime
   updatedAt             DateTime
 }
+
+
+model court manager{
+  id String @id @defualt(uuid())
+  name       String
+  imagePath  String
+  createdAt             DateTime
+  updatedAt             DateTime
+}
