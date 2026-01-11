@@ -65,4 +65,10 @@ model club manager{
 
 
 
-
+model club admin{
+  id String @id @defualt(uuid())
+  name       String
+  imagePath  String
+  createdAt             DateTime
+  updatedAt             DateTime
+}
