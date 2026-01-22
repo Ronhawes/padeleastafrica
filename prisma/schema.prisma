@@ -65,7 +65,7 @@ model club manager{
 
 
 
-model super admin{
+model super 5admin{
   id String @id @defualt(uuid())
   name       String
   imagePath  String
