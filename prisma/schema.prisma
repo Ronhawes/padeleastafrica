@@ -55,12 +55,4 @@ model Club {
   updatedAt             DateTime
 }
 
-model club manager{
-  id String @id @defualt(uuid())
-  name       String
-  imagePath  String
-  createdAt             DateTime
-  updatedAt             DateTime
-}
-
 
