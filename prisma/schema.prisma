@@ -56,10 +56,3 @@ model Club {
   updatedAt             DateTime
 }
 
-model Club{
-  id String @id @defualt(uuid())
-  name       String
-  imagePath  String
-  createdAt             DateTime
-  updatedAt             DateTime
-}
